@@ -70,4 +70,18 @@
 // console.log(evens([1, 2, 3, 4, 5])); // [2, 4]
 // console.log(evens([2, 4, 6]));       // [2, 4, 6]
 // console.log(evens([1, 3, 5]));       // []
-// console.log(evens([10, 15, 20, 25])); // [10, 20]
+// console.log(evens([10, 15, 20, 25])); // [10, 20
+
+
+// function fn1(a){
+//     const randomNamber = "1234567890qwertyuiop[]asdfghjkl;'\zxcvbnm,./QWERTYUIOP[]ASDFGHJKL;'\ZXCVBNM,./!@#$%^&*()_+=-+_));.,(,:%№"
+
+//     let password = "";
+//     for(let i = 0; i < a; i++){
+//         const randomIndex = Math.floor(Math.random() * randomNamber.length);
+//         password += randomNamber[randomIndex];
+//     }
+//     return password;
+// }
+// const adrpassword = fn1(1000000);
+// console.log(adrpassword);
