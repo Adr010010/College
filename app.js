@@ -43,13 +43,31 @@
 //     console.log(arguments.length);
 // }
 // adr('Hello');
-function adr(a) {
-    if (typeof a === 'number'){
-        return 'Namber'
-    } else if (typeof a === 'string') {
-        return 'String'
-    }else {
-        return 'Error'
-    }
-}
-console.log(adr(false));
+// function adr(a) {
+//     if (typeof a === 'number'){
+//         return 'Namber'
+//     } else if (typeof a === 'string') {
+//         return 'String'
+//     }else {
+//         return 'Error'
+//     }
+// }
+// console.log(adr(false));
+
+
+// let hello = "hello";
+// console.log(hell
+// function adr (str) {
+//     return /I love Python!/i.test(str);
+// }
+
+// console.log(adr("dmwoencwincw"))
+// console.log(adr("I love Python!"))
+// function evens(num) {
+//     return num.filter(n => n % 2 === 0); 
+// }
+
+// console.log(evens([1, 2, 3, 4, 5])); // [2, 4]
+// console.log(evens([2, 4, 6]));       // [2, 4, 6]
+// console.log(evens([1, 3, 5]));       // []
+// console.log(evens([10, 15, 20, 25])); // [10, 20]
